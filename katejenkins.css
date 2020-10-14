@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Calibri', sans-serif;
+    color:dimgrey;
+    font-size: 20px
+}
+
+body {
+    background-color: lightslategrey;
+}
+
+.top-bar {
+    max-width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+   font-size: 39px;
+   position: absolute;
+   padding: 0px 0px 0px 20px;
+   z-index: 3;
+   color: lightblue;
+   font-weight:normal;
+    font-family:fantasy
+}
+
+.top-menu {
+   background-color: lightblue;
+   position: absolute;
+   top: 85px;
+   z-index: 2;
+   width: 100%;
+}
+
+.top-menu ul {
+    list-style-type: none;
+    font-size: 25px; 
+    float: right;
+    margin-right: 20px;
+}
+
+.top-menu li {
+    display: inline-block;
+}
+
+.top-menu li a:link, .top-menu li a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px 20.5px 20px;
+    font-style: italic
+}
+
+.top-menu li a:hover {
+    background-color: lightgrey;
+}
+
+.current-page-link {
+    background-color: lightpink;
+}
+
+.page-content {
+    position: relative;
+    top: 145px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+
+.main-section {
+    padding: 10px 20px 10px 20px;
+}
+
+.main-section h1, .main-section h2 {
+    color: lightpink;
+    font-family: monospace
+}
+
+.main-section figure, .main-section img {
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+
+.footer {
+    position: relative;
+    top: 140px;
+    z-index: 3;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:lightblue;
+}
+
+.footer-content {
+    padding: 5px 5px 5px 20px;
+    color: white;
+    font-size: 20px
+}
+
+.footer-content a:link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px
+}
